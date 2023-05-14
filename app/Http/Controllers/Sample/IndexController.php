@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 class IndexController extends Controller
 {
     public function show (){
-        return 'hello goodbye';
+        return view('index');
     }
 }
 
