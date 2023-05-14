@@ -8,6 +8,6 @@ use Illuminate\Http\Request;
 class IndexController extends Controller
 {
     public function show (){
-        return 'hello hello';
-    }
+        return view('index');
+   }
 }
